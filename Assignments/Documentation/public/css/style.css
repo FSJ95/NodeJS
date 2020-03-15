@@ -1,0 +1,107 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+#lih1 {
+    list-style-type: none;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+/* CSS for main view */
+.main {
+    margin-left: 240px;
+    /* Same as the width of the sidenav */
+    font-size: 20px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+/* CSS for showing sidebar */
+.sidenav {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav p {
+    padding: 40px 0px 0px 16px;
+    text-decoration: underline;
+    font-size: 25px;
+    color: #ffffff;
+    margin: 0 0 0 0;
+    display: block;
+}
+
+.sidenav h1 {
+    padding: 6px 0px 20px 16px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #ffffff;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* CSS for darkmode switch */
+.switch {
+    cursor: pointer;
+    border: 1px solid #e6e6e6;
+    color: #e6e6e6;
+    border-radius: 1.25rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    left: 10px;
+}
+
+.dark {
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+}
+
+/* CSS for code examples */
+pre {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    overflow: auto;
+    background-color: rgb(50, 50, 50);
+    width: auto;
+    height: auto;
+}
+
+code {
+    color: white;
+}
+
+/* CSS for columns */
+.row {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 10px;
+    /* Should be removed. Only for demonstration */
+}
