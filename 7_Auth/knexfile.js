@@ -8,9 +8,9 @@ module.exports = {
   development: {
     client: 'mysql',
     connection: {
-      database: 'my_db',
-      username: 'username',
-      password: 'password'
+      database: credentials.database,
+      username: credentials.username,
+      password: credentials.password
     }
   }
 
