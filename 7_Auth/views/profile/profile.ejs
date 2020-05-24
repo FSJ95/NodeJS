@@ -1,0 +1,18 @@
+<!-- views/profile/profile.ejs -->
+
+<%- include('../navbar/navbar') %>
+<script src="/profile/profile.js"></script>
+
+<div id="content">
+    <h1>Hello <%= user.username %> </h1>
+    <p>This is your profile</p>
+    <ul>
+        <li>Username: <%= user.username %> </li>
+        <li>Age: <%= user.age %> </li>
+        <li>Email: <%= user.email %> </li>
+        <li>Role: <%= user.role.role %> </li>
+    </ul>
+
+</div>
+
+<%- include('../footer/footer') %>
